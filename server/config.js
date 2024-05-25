@@ -5,6 +5,8 @@ import { pipeline } from "@xenova/transformers";
 import dotenv from "dotenv";
 dotenv.config();
 
+export const PORT = process.env.PORT;
+
 // OpenAI Setup
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 export const MODEL = new OpenAI({
