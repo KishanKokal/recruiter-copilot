@@ -124,7 +124,7 @@ const TopCandidatesPage = () => {
               <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0 mb-4 text-center">
                 Skills
               </h2>
-              <div className="flex flex-wrap w-full h-2/5 border rounded-md gap-1 p-3">
+              <div className="flex flex-wrap w-full h-2/5 border rounded-md gap-1 p-3 max-h-96 overflow-y-clip">
                 {element.skills.map((skill, index) => (
                   <Button
                     key={index}
